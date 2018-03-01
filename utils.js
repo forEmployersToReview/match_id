@@ -18,6 +18,6 @@ const idDictionary = [
   '252F10C83610EBCA1A059C0BAE8255EBA2F95BE4D1D7BCFA89D7248A82D9F111'
 ];
 
-// Find a match and return a boolean
+// Find a match and return it's count
 module.exports.validateInput = possible_user_id =>
   idDictionary.filter((user_id, index) => user_id.match(possible_user_id)).length;
