@@ -2,4 +2,81 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-}
+  height: 100vh;
+  width: 100vw; }
+
+#root {
+  height: 100%;
+  width: 100%; }
+
+.elem-H2-style {
+  margin: 0px;
+  padding: 0px;
+  color: grey;
+  font-weight: 300; }
+
+.elem-button-style:hover {
+  cursor: pointer; }
+
+.elem-container-style {
+  background: #fff;
+  border: 1px solid #eaeaea; }
+
+.ds-render-validation-error {
+  color: tomato;
+  font-size: 13px;
+  margin-top: 10px; }
+
+.ds-render-validation-success, .ds-render-validation-error {
+  background: white;
+  padding: 5px;
+  border: 1px solid #c7c6c6;
+  border-radius: 3px;
+  text-align: center; }
+
+.ds-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: whitesmoke;
+  flex-direction: column; }
+
+.ds-wrapper {
+  background: white;
+  border: 1px solid #eae6e6;
+  border-radius: 3px;
+  min-width: 400px;
+  box-shadow: 0px 0px 1px 0px #dedede; }
+
+.ds-button-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.ds-title {
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 15px 15px 15px 20px;
+  margin: 0px; }
+
+.ds-input-style {
+  width: 98%;
+  border: 1px solid #eae6e6;
+  padding: 8px 3px;
+  min-height: 20px;
+  margin: 0px;
+  border-radius: 1px;
+  font-size: 13px; }
+
+.ds-search-button {
+  width: 100%;
+  padding: 8px 0;
+  font-size: 13px;
+  background: #1c1c3e;
+  color: #a3adbf;
+  margin-top: 5px;
+  border: 1px solid transparent;
+  border-radius: 3px; }
